@@ -1,10 +1,7 @@
-
 berta = 12
 print ("type of package variable :", type(berta))
 
 import packboy as berta
-import tribulle
-
 
 print("Hello World")
 print("Ma couille")
@@ -16,13 +13,18 @@ Hello dude. this is comment format
 Multiliner
 '''
 
+
+'''
 print ("type of package variable :", type(berta))
 print ("type of script.py variable :", type(tribulle))
-print ("type of module attribute :", type(tribulle.triliste) )
+print ("type of module attribute :", type(tribulle.triliste))
+'''
+print(berta.__dict__.keys())
 
 listToSort = [1,3,2]
-tribulle.triliste(listToSort)
+berta.tribulle.triliste(listToSort)
 print("now sorted list : ", listToSort)
+
 
 print("5 + 5", 5+5)
 print("5 * 5", 5*5)
@@ -69,4 +71,3 @@ unComp = 0
 while (unComp < 10):
     print (unComp)
     unComp = unComp + 1
-

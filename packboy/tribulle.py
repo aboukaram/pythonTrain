@@ -26,7 +26,6 @@ def triliste(LTS):
 chi = [11,15,2,19,17,6,4,1]
 triliste(chi)
 print('le resultat est : ', chi)
-
 '''
 
 
