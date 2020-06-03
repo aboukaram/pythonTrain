@@ -14,15 +14,27 @@ Multiliner
 '''
 
 
-'''
+
 print ("type of package variable :", type(berta))
+print ("type of package attribute :", type(berta.tribulle))
+
+
+'''
+print ("type of module attribute :", type(berta.tribulle.triliste))
 print ("type of script.py variable :", type(tribulle))
 print ("type of module attribute :", type(tribulle.triliste))
 '''
+
+
 print(berta.__dict__.keys())
 
 listToSort = [1,3,2]
 berta.tribulle.triliste(listToSort)
+
+'''
+berta.tribulle.triliste(listToSort)
+'''
+
 print("now sorted list : ", listToSort)
 
 
